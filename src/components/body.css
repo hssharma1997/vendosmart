@@ -1,0 +1,60 @@
+.page_body{
+    background-color: #f4fafe;
+    margin-top: 30px;
+}
+.vendor_filter{
+    
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+       
+       background-color: white;
+       margin-bottom: 25px;
+       border-radius: 4px ;
+       box-shadow:0 2px 16px 0 #0000002e;
+       padding-left: 120px;
+       padding-top: 50px;
+       padding-right: 50px;
+       padding-bottom: 40px;
+   }
+   .heading{
+       color: #2883bf;
+       font-size: 24px;
+       font-weight: 500;
+      
+   }
+   .search_btn{
+       cursor: pointer;
+       color: #fff;
+       background-color: #28a745;
+       border-color: #28a745;
+       font-size: 14px;
+       outline: none;
+       padding: .5rem 1rem;
+       min-width: 120px;
+       outline: none;
+       border-radius: .25rem;
+   }
+   input{
+       border: 1px solid #2883bf;
+       border-radius: .25rem;
+       transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+       padding: .375rem .75rem;
+       height: calc(2.25rem + 2px)
+   }
+   select{
+       border: 1px solid #2883bf;
+       border-radius: .25rem;
+       transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+       padding: .375rem .75rem;
+       height: calc(2.25rem + 2px)
+   }
+   
+   input:focus,select:focus{
+       outline: none;
+   }
+   .search{
+       display: flex;
+       justify-content: space-between;
+   }
+  

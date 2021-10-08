@@ -1,0 +1,16 @@
+.service{
+   text-align: center;
+    background-color: #fff;
+    color: #0072B2;
+    padding: 4px 5px;
+    min-width: 80px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    border:1px solid #0072b4
+}
+.service:hover{
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}

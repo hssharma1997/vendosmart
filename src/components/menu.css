@@ -1,0 +1,37 @@
+.menu{
+    width: 60%;
+}
+.navbar_items{
+   list-style: none;
+   display: flex;
+}
+.navbar_item{
+    padding: 10px;
+    color: #2196f3;
+
+
+    letter-spacing: .5px;
+}
+.navbar_item:hover{
+    cursor: pointer;
+    color: #22be31!important;
+    border-bottom: 2px solid #22be31;
+}
+.navbar_itemspecial{
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 14px;
+    outline: none;
+    padding: .5rem 1rem;
+    min-width: 120px;
+    outline: none;
+    border-radius: .25rem;
+}
+.navbar_itemspecial:hover{
+    background-color: white;
+    color: #28a745;
+    border:1px solid #28a745;
+}
